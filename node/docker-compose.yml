@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aiding-logs-server
+    ports:
+      - "3002:3002" 
+    volumes:
+      - .env:/app/.env
+    restart: unless-stopped
