@@ -1,4 +1,4 @@
-# ⚡️ WebSocket Benchmark — Node.js vs Go
+# WebSocket Benchmark — Node.js vs Go
 
 A simple real-world test comparing **WebSocket performance** between **Node.js (TypeScript)** and **Go**.
 
@@ -9,7 +9,7 @@ Each server implements the same minimal chat app:
 
 
 
-## 🚀 Run the Servers
+## Run the Servers
 
 ### Node.js
 ```bash
